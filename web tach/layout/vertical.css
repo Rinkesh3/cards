@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+background-color: rgb(90, 145, 142);
+width: 15%;
+height: 100vh;
+}
+#cont{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    padding: 20px 0px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+a:hover{
+    background-color: darkgray;
+}
+/* ===================================================Normal Drop down================================================================== */
+/* #mobile{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: dodgerblue;
+    position: relative;
+    display: none;
+}
+#drop:hover #mobile{ 
+    display: block;
+}
+#laptop{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: dodgerblue;
+    position: relative;
+    display: none;
+}
+#droplaptop:hover #laptop{ 
+    display: block;
+} */
+/*=========================================================== Right-side Dropdown==================================================== */
+#mobile{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: dodgerblue;
+    top: 0;
+    left: 100%;
+    position: absolute;
+    display: none;
+    width: 50%;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #mobile{ 
+    display: block;}
+#imenu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(179, 97, 97);
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#idrop{
+    position: relative;
+}
+#idrop:hover #imenu {
+    display: block;
+}
+#Onemenu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(179, 97, 97);
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200%;
+    display: none;
+}
+#Onedrop{
+    position: relative;
+}
+#Onedrop:hover #Onemenu {
+    display: block;
+}
+
+
+#laptop {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: dodgerblue;
+    top: 0px ;
+    left: 100%;
+    position: absolute;
+    display: none;
+}
+#droplaptop{
+    position: relative;
+}
+#droplaptop:hover #laptop{ 
+    display: block;
+}

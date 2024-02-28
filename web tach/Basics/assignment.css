@@ -1,0 +1,15 @@
+#hd{
+    text-align: center;
+}
+#Biryani{
+color: red;
+}
+ul{
+    list-style-type: square;
+}
+.prd{
+    color: red;
+}
+body{
+   background-image: linear-gradient(to Right bottom, rgb(196, 196, 152) , rgb(201, 123, 123) , rgb(80, 80, 133) );
+}

@@ -1,0 +1,38 @@
+ul {
+    list-style-type: square;
+}
+
+#r {
+    font-size: 3ch;
+}
+
+.Hero {
+    color: brown;
+}
+
+#s {
+    font-size: 3ch;
+}
+
+.Heroien {
+    color: pink;
+}
+
+/* ul{
+    background-color: blueviolet;
+}
+ol{
+    background-color: cadetblue;
+} 
+#ft{
+    background-color: darkcyan;
+}
+#crk{
+    background-color: darkorange;
+} */
+body {
+    background-image: linear-gradient(khaki, yellow);
+    /* background-image: url(./image/shreyas-iyer-celebrates-his-century-against-new-zealand-reuters-151609375-16x9_3.avif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,17 @@
+
+
+table{
+    align-items: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 2px solid black;
+}
+.Q{
+    color: green;
+}
+.R{
+    color: red;
+}

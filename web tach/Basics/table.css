@@ -1,0 +1,26 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 2px solid black;
+}
+#mi{
+    color: blue;
+}
+#csk{
+    color: yellow;
+}
+#gt{
+    color: purple;
+}
+#rcb{
+    color: red;
+}
+th{
+    color: rgb(106, 155, 97);
+}
+*{
+    color: brown;
+}

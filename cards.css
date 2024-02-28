@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: opx;
+    font-family: "Protest Revolution", sans-serif;
+}
+main{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+
+}
+section{
+    /* background-color: chocolate; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between
+}
+div{
+    background-color: gold;
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+}
+img{
+
+    width: 100%;
+    height: 300px;
+    transition: 1s
+}
+h3{
+    color: #a54b4b;
+}
+button{
+    width: 100%;
+    background-color: rgb(74, 207, 74);
+    border: none;
+    height: 40px;
+    color: black;
+}
+img:hover{
+    /* transform: scale(1.1);    */
+    filter: blur(20px);
+
+}
+.imgcontaner{
+    width: 100%;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+.imgcontaner:hover .title{
+    display: block;
+}

@@ -1,0 +1,62 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#cant{
+    list-style-type: none;
+    display: flex;
+    color: black;
+
+    margin: 0px;
+}
+nav{
+    background-color: khaki;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    padding: 20px;
+    display: block;
+}
+#veg{
+    list-style-type: none;
+    padding: 0px;
+    background-color: coral;
+    margin: 0px;
+    position: absolute;
+    display: none;
+}
+#dropveg:hover #veg{
+    display: block;
+}
+
+#non-veg{
+    list-style-type: none;
+    padding: 0px;
+    background-color: coral;
+    margin: 0px;
+    position: absolute;
+    display: none;
+}
+#dropnon-veg:hover #non-veg{
+    display: block;
+}
+
+#drinks{
+    list-style-type: none;
+    padding: 0px;
+    background-color: coral;
+    margin: 0px;
+    position: absolute;
+    display: none;
+}
+#dropdrinks:hover #drinks{
+    display: block;
+    transition: 10s;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+
+    }

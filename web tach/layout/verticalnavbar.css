@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0px;
+    font-family: "Protest Revolution", sans-serif;
+}
+nav{
+    background-color: khaki;
+    width: 15%;
+    height: 100vh;
+    }
+    #cant{
+        margin: 0;
+        padding: 0px;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(12, 12, 12);
+        padding: 20px 0px;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 2px solid white;
+    }
+    a:hover{
+        background-color: darkgray;
+    }
+    #vegmenu{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        background-color: dodgerblue;
+        top: 0;
+        left: 100%;
+        position: absolute;
+        display: none;
+        width: 50%;
+    }
+    #vegdrop{
+        position: relative;
+    }
+    #vegdrop:hover #vegmenu{ 
+        display: block;
+    }
+    #break-fast{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #Bfdrop{
+        position: relative;
+    }
+    #Bfdrop:hover #break-fast{
+        display: block;
+    }
+    #lunch{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #lunchdr{
+        position: relative;
+    }
+    #lunchdr:hover #lunch{
+        display:block;
+    }
+    #dinner{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #dinnerdr{
+        position: relative;
+    }
+    #dinnerdr:hover #dinner{
+        display: block;
+    }
+    #non-vegmenu{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        background-color: dodgerblue;
+        top: 0;
+        left: 100%;
+        position: absolute;
+        display: none;
+        width: 50%;
+    }
+    #non-vegmenu{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        background-color: dodgerblue;
+        top: 0;
+        left: 100%;
+        position: absolute;
+        display: none;
+        width: 50%;
+    }
+    #Non-vegdrop{
+        position: relative;
+    }
+    #Non-vegdrop:hover #non-vegmenu{
+        display: block;
+    }
+    #lunchnv{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #lunchnvdr{
+        position: relative;
+    }
+    #lunchnvdr:hover #lunchnv{
+        display: block;
+    }
+    #break_nv{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #break_nvdr{
+        position: relative;
+    }
+    #break_nvdr:hover #break_nv{
+        display: block;
+    }
+    #dinnernv{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #dr{
+        position: relative;
+    }
+    #dr:hover #dinnernv{
+        display: block;
+    }
+    #drinksmenu{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        background-color: dodgerblue;
+        top: 0;
+        left: 100%;
+        position: absolute;
+        display: none;
+        width: 50%;
+
+    }
+    #Droopdtinks{
+        position: relative;
+    }
+    #Droopdtinks:hover #drinksmenu{
+        display: block;
+    }
+    #hotdr{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #deh{
+        position: relative;
+    }
+    #deh:hover #hotdr{
+        display: block;
+    }
+    #cold{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(179, 97, 97);
+        position: absolute;
+        top: 0px;
+        left: 100%;
+        width: 200%;
+        display: none;
+    }
+    #colddr{
+        position: relative;
+    }
+    #colddr:hover #cold{
+        display: block;
+    }
